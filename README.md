@@ -8,7 +8,7 @@
 |____/|_| |_|\___|_|_||_|  \___/|_|_|\___/ 
 ```
 
-[![Live Preview](https://img.shields.io/badge/⚡_LIVE_PREVIEW-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://YOUR_VERCEL_LINK_HERE)
+[![Live Preview](https://img.shields.io/badge/⚡_LIVE_PREVIEW-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shellfolio-by-panchaldhairya.vercel.app/)
 
 ### `dhairya@portfolio:~$ whoami`
 
