@@ -1,178 +1,210 @@
-# 💻 Interactive Linux Desktop Portfolio (Serverless Unix Workspace)
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/tirthpatel90/My-Portfolio-/stargazers"><img src="https://img.shields.io/github/stars/tirthpatel90/My-Portfolio-?style=for-the-badge&color=58a6ff&logo=github" alt="GitHub Stars"/></a>
-  <a href="https://github.com/tirthpatel90/My-Portfolio-/network/members"><img src="https://img.shields.io/github/forks/tirthpatel90/My-Portfolio-?style=for-the-badge&color=3fb950&logo=git" alt="GitHub Forks"/></a>
-  <a href="https://github.com/tirthpatel90/My-Portfolio-/blob/main/LICENSE"><img src="https://img.shields.io/github/license/tirthpatel90/My-Portfolio-?style=for-the-badge&color=bc8cff" alt="License"/></a>
-</p>
+```
+ ____  _          _ _  _____     _ _       
+/ ___|| |__   ___| | ||  ___|__ | (_) ___  
+\___ \| '_ \ / _ \ | || |_ / _ \| | |/ _ \ 
+ ___) | | | |  __/ | ||  _| (_) | | | (_) |
+|____/|_| |_|\___|_|_||_|  \___/|_|_|\___/ 
+```
 
-<p align="center">
-  <img src="demo.png" alt="Portfolio Screenshot" width="800" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.4);"/>
-</p>
+[![Live Preview](https://img.shields.io/badge/⚡_LIVE_PREVIEW-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://YOUR_VERCEL_LINK_HERE)
 
-<p align="center">
-  <strong>A premium, fully interactive, browser-based Linux Desktop Environment styled as a Unix workspace. Fully serverless, running mock Docker containers and booting real WebAssembly-based Alpine Linux operating systems locally on the client side!</strong>
-</p>
+### `dhairya@portfolio:~$ whoami`
 
----
+**DevOps Engineer · Linux SysAdmin · RHCSA Certified**
 
-## 🌐 Live Mainframe Demo
-Try the interactive shell environment live here: **[tirthdev-portfolio.vercel.app](https://tirthdev-portfolio.vercel.app/)**
+*B.Sc. IT (Cloud & Application Development) · Gujarat University, Ahmedabad*
 
----
+<br/>
 
-## 🎯 Project Vision
-Most developer portfolios are static templates. This repository contains a fully functional **virtual desktop environment** built with vanilla web technologies. It is designed specifically for **DevOps, Cloud, Systems, and Backend Engineers** to showcase infrastructure administration, shell operations, container orchestration, and system configurations interactively.
+[![Resume](https://img.shields.io/badge/📄_RESUME-1a1a2e?style=for-the-badge)](https://github.com/panchaldhairya16/whoami-dhairya/raw/main/DhairyaPanchal-CV.pdf)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhairyapanchal)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/panchaldhairya16)
 
----
+<br/>
 
-## ✨ Key Capabilities & Mocks
+![demo](demo.png)
 
-### 🖥️ 1. Client-Side WebAssembly Terminal (Path A)
-Spawns a draggable, retro terminal window running a **real, serverless virtual machine emulator** in-browser via WebAssembly (`v86`).
-*   **100% Free Hosting:** Virtualization executes entirely in the visitor's browser thread via Wasm. No virtual private servers (VPS) are rented or required, meaning your portfolio hosting is completely free.
-*   **Draggable Terminal Overlay:** Fitted with customized, sleek webkit-scrollbars that match your desktop themes.
-*   **Supported Operating Systems:** The underlying `v86` emulator runs a real x86 emulation layer in WebAssembly. You can configure it to load several pre-configured operating system profiles:
-    *   🐧 **Alpine Linux (Default):** A super-lightweight security-oriented Linux server shell (`profile=alpine`).
-    *   🚀 **Arch Linux:** A customized 32-bit Linux terminal containing packages like Python, Git, and system logs (`profile=archlinux`).
-    *   📦 **NodeOS:** A lightweight operating system built on top of the Linux kernel, using Node.js as the primary userspace runtime (`profile=nodeos`).
-    *   🛠️ **Buildroot Linux:** A minimal embedded Linux setup precompiled with networking utilities (`profile=buildroot`).
-    *   💾 **FreeDOS:** A complete, free MS-DOS compatible operating system for running legacy command-line applications (`profile=freedos`).
-    *   🛡️ **OpenBSD:** A security-focused, multi-platform Unix-like operating system (`profile=openbsd`).
-    *   🐦 **KolibriOS:** An extremely fast assembly-written graphical OS (`profile=kolibrios`).
-    *   💻 **Damn Small Linux:** A 50MB lightweight desktop environment precompiled with legacy Firefox web browsers (`profile=dsl`).
-    *   🏁 **Windows 98:** A classic retro Windows desktop GUI running in-browser (`profile=windows98`).
-
-
-### 🐳 2. Simulated Docker Container Engine
-Allows recruiters to run mock container commands (`docker run -it centos`) inside the host prompt.
-*   **Environment Shifting:** Swaps console variables to warning-red root layouts (`[root@centos-container /]#`).
-*   **Isolated Filesystems:** Simulates internal directory structures (`/bin`, `/etc`, `/var`, `/opt`).
-*   **InstallerStdout Simulation:** Type `yum install nginx` or `apt install nginx` to execute complete download sequences, package validations, and setup loops mimicking real Linux installer outputs.
-
-### 🎨 3. Glassmorphic Desktop Window System
-*   **Draggable & Maximizable Windows:** Draggable desktop app containers (`about`, `skills`, `projects`, `files`, `connect`) with double-click window focus management.
-*   **Theme Switcher Engine:** Change background styles dynamically (Dracula Dark, Matrix Green, GitHub Dark, Tokyo Night, Midnight Black) via console commands (`theme [name]`) or the floating settings gear widget.
+</div>
 
 ---
 
-## 🛠️ Tech Stack
-*   **Core Logic & Structure:** HTML5, CSS3, JavaScript (ES6+, Vanilla, 100% Client-Side)
-*   **Virtualization Core:** WebAssembly (Wasm via compiled `v86` emulator)
-*   **Visual Assets & Layout:** FontAwesome Icons, Google Fonts (JetBrains Mono & Inter)
-*   **Mailer System:** Formspree API Integrations
+## `$ cat /etc/os-release`
+
+> A fully interactive, browser-based **Linux Desktop Environment** built as a personal portfolio — no frameworks, no servers, pure vanilla web tech. Boot a real Alpine Linux terminal inside your browser, simulate Docker containers, switch between 5 terminal themes, and explore my work like navigating a Unix workspace.
 
 ---
 
-## ⚙️ Architecture & Sequence Flow
+## `$ ls -la features/`
 
-```mermaid
-sequenceDiagram
-    autonumber
-    actor Visitor as Portfolio Visitor
-    participant Host as Host Terminal CLI
-    participant Docker as Docker Simulator Engine
-    participant WASM as WebAssembly v86 Guest OS
-
-    Visitor->>Host: Input command: 'docker run -it centos'
-    Host->>Docker: Initialize container prompt lifecycle
-    Docker->>Host: Swap prompt prefix to [root@centos-container /]#
-    Visitor->>Host: Input command: 'server'
-    Host->>WASM: Mount terminal body, load v86 WebAssembly kernel
-    WASM->>Visitor: Boot real Linux shell in draggable window frame
+```
+drwxr-xr-x  features/
+├── 🖥️  interactive-terminal     # Full CLI with 15+ real commands
+├── 🐳  docker-simulator         # Mock container engine (docker run -it centos)
+├── 🐧  wasm-linux-vm            # Real Alpine Linux via WebAssembly (v86)
+├── 🎨  theme-switcher           # 5 themes: Dracula · Matrix · GitHub · Tokyo Night · Midnight Black
+├── 🪟  draggable-windows        # Desktop-style floating app containers
+└── 📬  contact-form             # Formspree-powered direct inbox mailer
 ```
 
 ---
 
-## 🚀 Local Setup & Installation
+## `$ uname -a` — Tech Stack
 
-Because the portfolio loads dynamic cross-origin assets (like the virtual WebAssembly disk images and external links), **modern browsers block file loads if opened directly from local folders (`file://`) due to CORS security rules**. 
+<div align="center">
 
-To run and preview the codebase locally:
+| Layer | Technology |
+|---|---|
+| **Core** | HTML5 · CSS3 · JavaScript ES6+ (100% Vanilla, Zero Frameworks) |
+| **Virtualization** | WebAssembly · v86 x86 Emulator |
+| **Icons & Fonts** | FontAwesome · JetBrains Mono · Inter |
+| **Mailer** | Formspree API |
+| **Hosting** | Vercel |
 
-1. **Fork this repository** on GitHub.
-2. **Clone the repository** to your local machine:
-   ```bash
-   git clone https://github.com/your-username/interactive-linux-portfolio.git
-   ```
-3. **Launch a local server** in the repository root directory:
-   * **Python (Recommended):**
-     ```bash
-     python -m http.server 8000
-     ```
-     Open `http://localhost:8000` in your browser.
-   * **Node.js (Alternative):**
-     ```bash
-     npx live-server
- 
-### 7. Change the Default WebAssembly OS Profile
-By default, the WebAssembly terminal environment (via the `server` or `wasm` command) boots Alpine Linux. You can easily switch this to run any of the other supported operating systems:
-1. Open **`script.js`** and locate the `spawnWasmTerminal()` function.
-2. Find the code line loading the `iframe` element (around line 1057):
-   ```html
-   <iframe class="wasm-terminal-frame" src="https://copy.sh/v86/?profile=alpine" ...>
-   ```
-3. Change the `profile` parameter value from `alpine` to any of the other supported profiles:
-   * **Arch Linux:** `?profile=archlinux`
-   * **NodeOS:** `?profile=nodeos`
-   * **Buildroot:** `?profile=buildroot`
-   * **FreeDOS:** `?profile=freedos`
-   * **OpenBSD:** `?profile=openbsd`
-   * **KolibriOS:** `?profile=kolibrios`
-   * **Damn Small Linux:** `?profile=dsl`
-   * **Windows 98:** `?profile=windows98`
-4. Update the title text in the terminal window header (around line 1054) to match the selected OS:
-   ```javascript
-   <div class="header-title"><i class="fas fa-microchip"></i> mainframe-core // WebAssembly Arch Linux</div>
-   ```
-
+</div>
 
 ---
 
-### Supported OS Profiles
+## `$ systemctl status themes`
 
-| OS | Description | Profile Parameter |
+<div align="center">
+
+| Theme | Command | Colors |
 |---|---|---|
-| Alpine Linux | Lightweight server OS | `alpine` |
-| Arch Linux | Rolling release Linux distro | `archlinux` |
-| NodeOS | Node.js as init system | `nodeos` |
-| Buildroot Linux | Minimal embedded Linux | `buildroot` |
-| FreeDOS | MS-DOS compatible OS | `freedos` |
-| OpenBSD | Security-focused Unix | `openbsd` |
-| KolibriOS | Assembly graphical OS | `kolibrios` |
-| Damn Small Linux | Tiny Linux with X and Firefox | `dsl` |
-| Windows 98 | Classic Windows GUI | `windows98` |
+| 🌑 Midnight Black *(default)* | `theme midnight` | `#000000` `#58a6ff` `#3fb950` |
+| 🧛 Dracula Dark | `theme dracula` | `#0b0e14` `#58a6ff` `#bc8cff` |
+| 💚 Matrix Green | `theme matrix` | `#020502` `#00ff00` `#39ff14` |
+| 🐙 GitHub Dark | `theme github` | `#0d1117` `#58a6ff` `#8b949e` |
+| 🌃 Tokyo Night | `theme tokyonight` | `#1a1b26` `#7aa2f7` `#bb9af7` |
+
+</div>
 
 ---
 
+## `$ git clone && run`
 
-## 🔧 How to Customize This Portfolio for Yourself
+```bash
+# 1. Clone the repo
+git clone https://github.com/panchaldhairya16/whoami-dhairya.git
+cd whoami-dhairya
 
-This project is built to be extremely beginner-friendly. All personalization content is extracted into a single configuration file: **[config.js](file:///c:/Users/tirth/Portfolio/config.js)**.
+# 2. Serve locally (CORS requires a local server)
+python -m http.server 8000
 
-### 1. Centralized Configuration (config.js)
-Open **`config.js`** in your editor and customize the values in the `CONFIG` object:
-*   **Page Metadata:** Change `pageTitle` and `logoPrompt`.
-*   **Terminal Details:** Change `terminalUser` and `terminalHost` to update console prefixes.
-*   **Bio/About Details:** Edit fields under `about` to reflect your name, role, learning interests, and coordinates.
-*   **Skills Tree:** Modify the `skills.treeCol1` and `skills.treeCol2` ASCII text layout columns.
-*   **Projects & Experience:** Update lists of projects and experience items. They will be formatted and rendered automatically.
-*   **Formspree Mailer:** Set your Formspree form ID under `connect.formspreeId` to receive form submissions.
-*   **Social & Resume Links:** Update the `socials` array with your profile links and icons, and define the `resumeUrl` path.
+# 3. Open in browser
+xdg-open http://localhost:8000
+```
 
-### 2. Replace Static Assets
-*   **Profile Image:** Place your profile picture named `profile.jpg` in the root folder (or update the path in `config.js`).
-*   **Resume PDF:** Place your resume named `Resume.pdf` in the root folder (or update the path in `config.js`).
+> **Note:** Must be served via a local HTTP server — direct `file://` access is blocked by browser CORS policies.
 
 ---
 
-## 🤝 Contribution Guidelines
+## `$ vim config.js` — Customize It
 
-We welcome contributions to this open-source portfolio project! Please refer to the **[CONTRIBUTING.md](file:///c:/Users/tirth/Portfolio/CONTRIBUTING.md)** file for guidelines on how to report issues, suggest features, and submit pull requests.
+All personal content lives in a single file: **`config.js`**
+
+```js
+const CONFIG = {
+  pageTitle: "Your Name | Your Role",
+  terminalUser: "yourname",
+  terminalHost: "yourhostname",
+
+  about: {
+    name: "Your Full Name",
+    pfp: "profile.png",           // ← drop your photo here
+    titleRole: "Your Role",
+    // ...bio, skills, projects, experience
+  },
+
+  connect: {
+    formspreeId: "YOUR_FORMSPREE_ID",   // ← plug in your Formspree ID
+  },
+
+  resumeUrl: "YourResume.pdf"           // ← add your resume PDF
+};
+```
 
 ---
 
-## 📄 License & Badges
-This repository is open-sourced under the [MIT License](LICENSE). Feel free to use, modify, and deploy this workspace for your own professional portfolio!
+## `$ docker ps` — Terminal Commands
 
-*If you found this codebase useful, please **give it a Star (⭐)**! It helps other Cloud/DevOps engineers discover this open-source project.*
+```
+COMMAND         DESCRIPTION
+────────────────────────────────────────────────
+whoami          About me & bio
+skills          ASCII tree of my tech stack
+projects        Deployment log of key projects
+experience      SysLog of work history
+resume          Open / download my CV
+connect         Open contact form
+theme [name]    Switch terminal theme
+docker          Simulate container environments
+server          Boot real Alpine Linux (WASM)
+ls / files      Browse filesystem
+clear           Clear terminal output
+help            List all available commands
+```
+
+---
+
+## `$ cat /proc/about`
+
+```
+Name     :  Dhairya N Panchal
+Role     :  DevOps Engineer · Linux SysAdmin
+Location :  Ahmedabad, Gujarat, India (GMT +5:30)
+Cert     :  RHCSA — Red Hat Certified System Administrator
+Study    :  B.Sc. IT · Cloud & Application Development · Gujarat University
+```
+
+**Currently exploring:** AWS infrastructure optimization · Kubernetes · SRE practices
+
+**Community:** AWS Community Ahmedabad · Elastic Ahmedabad — organizing meetups on cloud & observability
+
+---
+
+## `$ ls certifications/`
+
+```
+├── ✅ RHCSA — Red Hat Certified System Administrator
+├── ✅ AWS Academy — Cloud Foundations
+├── ✅ AWS Basics — KodeKloud
+└── ✅ Cloud Computing — EC-Council
+```
+
+---
+
+## `$ chmod 777 contribute`
+
+Contributions are welcome! Check **[CONTRIBUTING.md](CONTRIBUTING.md)** for guidelines on reporting issues, suggesting features, and submitting pull requests.
+
+```bash
+# Fork → Clone → Branch → Commit → PR
+git checkout -b feat/your-feature
+git commit -m "feat: add your feature"
+git push origin feat/your-feature
+```
+
+---
+
+## `$ cat LICENSE`
+
+Released under the [MIT License](LICENSE) — free to use, modify, and deploy for your own portfolio.
+
+*If this helped you, drop a ⭐ — it helps other DevOps engineers find this project.*
+
+---
+
+<div align="center">
+
+```
+dhairya@portfolio:~$ exit
+Connection to dhairya.dev closed.
+```
+
+**[⚡ Live Preview](https://YOUR_VERCEL_LINK_HERE)** · **[LinkedIn](https://linkedin.com/in/dhairyapanchal)** · **[GitHub](https://github.com/panchaldhairya16)** · **[Email](mailto:panchaldhairya2005@gmail.com)**
+
+</div>
