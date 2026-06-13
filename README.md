@@ -20,7 +20,7 @@
 
 [![Resume](https://img.shields.io/badge/📄_RESUME-1a1a2e?style=for-the-badge)](https://github.com/panchaldhairya16/whoami-dhairya/raw/main/DhairyaPanchal-CV.pdf)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhairyapanchal)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhairya-panchal-800845351/)
 &nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/panchaldhairya16)
 
